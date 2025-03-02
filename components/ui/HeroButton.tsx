@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroButton(
     { title, icon, handleClick, otherClasses }:
-        { title: string; icon: React.ReactNode; position: string; handleClick?: () => void; otherClasses: string; }) {
+        { title: string; icon: React.ReactNode; handleClick?: () => void; otherClasses?: string; }) {
     return (
         <div>
             <button className="p-[3px] relative">

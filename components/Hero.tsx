@@ -16,7 +16,8 @@ export default function Hero() {
                 <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
             </div>
 
-            <div className="absolute top-0 left-0 h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center">
+            {/* 中文：这里暂时删掉了包裹div的h-screen，因为它挡住了后续元素的显示，如果后面不需要这个元素也可以删掉了（原absolute top-0 left-0 h-screen） */}
+            <div className="absolute top-0 left-0 w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center">
                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             </div>
 
@@ -42,9 +43,6 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="min-h-96"></div>
-            <div className="min-h-96"></div>
-            <div className="min-h-96"></div>
 
         </div>
     )
