@@ -2,11 +2,11 @@ export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
-      url:"https://www.baidu.com",
+      url:"https://github.com/Filicss/filics.github.io",
     },
     {
       id: 2,
       img: "/link.svg",
-      url:"",
+      url:"https://www.linkedin.com/in/filicshao/",
     },
   ];
