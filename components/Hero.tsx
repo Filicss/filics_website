@@ -34,7 +34,7 @@ export default function Hero() {
                     </div>
 
                     <div className="mx-auto">
-                        <a href="#">
+                        <a href="#about">
                             <HeroButton title="About me" icon={<CgProfile />} />
                         </a>
                     </div>
