@@ -5,7 +5,7 @@ import HeroButton from "./ui/HeroButton";
 import { CgProfile } from "react-icons/cg";
 
 
-const title = "Welcome to Filics's portfolio website!";
+const title = "Welcome to Filics's personal website!";
 
 export default function Hero() {
     return (
