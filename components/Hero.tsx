@@ -29,7 +29,7 @@ export default function Hero() {
 
                     <div className="relative z-10 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
                         <h3>
-                            Hi, I&apos;m Filics, a web developer. I&apos;m looking for job opportunities.
+                            Hi, I&apos;m Filics, a web developer. I&apos;m looking for a job opportunity.
                         </h3>
                     </div>
 
