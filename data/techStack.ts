@@ -1,30 +1,39 @@
 const techStack = [
     {
-        name: 'React', skllLevel: 5
+        name: 'HTML'
     },
     {
-        name: 'Next.js', skllLevel: 4
+        name: 'CSS & CSS3'
+    },
+    {
+        name: 'JavaScript'
+    },
+    {
+        name: 'React'
+    },
+    {
+        name: 'Next.js'
     },
     {
     name: 'Tailwind CSS', skllLevel:4
     },
     {
-        name: 'Git', skllLevel: 4
+        name: 'Git'
     },
     {
-        name: 'Node.js', skllLevel: 4
+        name: 'Node.js'
     },
     {
-        name: 'Java', skllLevel: 4
+        name: 'Java'
     },
     {
-        name: 'Spring boot', skllLevel: 4
+        name: 'Spring boot'
     },
     {
-        name: 'MySQL', skllLevel: 4
+        name: 'MySQL'
     },
     {
-        name: 'REST APIs', skllLevel: 4
+        name: 'RESTful APIs'
     },
 ]
 export default techStack;
